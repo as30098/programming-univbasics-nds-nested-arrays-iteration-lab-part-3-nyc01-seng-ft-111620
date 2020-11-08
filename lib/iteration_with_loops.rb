@@ -14,7 +14,7 @@ def join_nested_strings(src)
       # if the current item is a string 
       if src[outer_index][inner_index].class == String
         # add to the output string 
-        output += src[outer_index][inner_index]
+        output += src[outer_index][inner_index] += ' '
       # end if statement 
     end 
     # increment inner array counter
